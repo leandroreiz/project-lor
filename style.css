@@ -1,0 +1,70 @@
+/*
+#272226
+#C49250
+#ADA393
+#E4E1DB
+*/
+
+html, body {
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    background-color: #E4E1DB;
+    color: #272226;
+}
+
+.container-fluid
+{
+    padding: 0;
+}
+
+.navbar
+{
+    padding: 8px 160px;
+}
+
+.bg-dark
+{
+    background-color: #272226 !important;
+}
+
+.brand-color
+{
+    font-size: 1.4em;
+    background-color: linear-gradient(145deg, rgba(196,146,80,1) 0%, rgba(253,209,151,1) 33%, rgba(196,146,80,1) 66%, rgba(253,209,151,1) 100%) !important;
+    background-clip: text;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    justify-content: center;
+    box-sizing: border-box;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-bottom: 32px;
+}
+
+a
+{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.card-container
+{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s ease-out 0s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image
+{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: opacity 0.4s ease 0s;
+}
